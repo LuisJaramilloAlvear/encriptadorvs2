@@ -7,12 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header>logo - header </header>
-    <section> section 1 - Caja de textos</section>
-    <section> section 2 - Botones y mensaje</section>
-    <aside>Salida de codificacion e imagen</aside>
-    <footer>footer</footer>
-
+    <div class="container">
+        <header><img src="img/Logo.png" alt=""></header>
+           
+        
+            <section> 
+                <textarea class="cuadroTexto" name="cuadroTexto" id="Ctext" placeholder="Ingrese Texto Aqui!"></textarea>
+                <p class="mensajeCuadro">Solo letras minúsculas y sin acentos</p>
+            
+                <div class="botones">
+                    <button>Encriptar</button>
+                    <button>Desencriptar</button>
+                    <button>Limpiar</button>
+                </div>
+            </section>
+        
+        <aside>
+            <img class="muneco" src="img/Muñeco.png" alt="Muñeco">
+            <p class="nmensaje">Ningún mensaje fue encontrado</p>
+            <p class="encripTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button class="botonCopiar">Copiar</button>
+        </aside>
+        
+        <footer>Todos los derechos reservados - Luis Jaramillo</footer>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
